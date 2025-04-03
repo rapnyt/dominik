@@ -1,0 +1,21 @@
+# Rust compiled binaries and artifacts
+/target/
+**/*.rs.bk
+
+# Cargo specific files
+Cargo.lock
+.cargo/
+.cargo-target/
+
+# Build tool files
+**/*.rlib
+**/*.rmeta
+
+# Rust compiled binaries and artifacts
+/target/
+**/*.exe
+**/*.dll
+**/*.dylib
+**/*.so
+**/*.a
+**/*.lib
